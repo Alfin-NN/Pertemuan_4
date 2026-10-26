@@ -45,7 +45,6 @@ class HomePage extends StatelessWidget {
         foregroundColor: theme.colorScheme.onPrimary,
         elevation: 0,
         actions: [
-          // Tombol menuju Halaman Profil
           IconButton(
             icon: const Icon(Icons.person),
             tooltip: 'Profil',
@@ -77,7 +76,6 @@ class ProfilePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        // Tombol kembali ke Beranda di sebelah kiri
         leading: IconButton(
           icon: const Icon(Icons.home),
           tooltip: 'Beranda',
