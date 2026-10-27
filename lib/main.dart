@@ -4,8 +4,8 @@ void main() {
   runApp(const FahryApp());
 }
 
-class FahryApp extends StatelessWidget {
-  const FahryApp({super.key});
+class azapp extends StatelessWidget {
+  const azapp({super.key});
 
   @override
   Widget build(BuildContext context) {
